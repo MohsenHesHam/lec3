@@ -3,9 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    mime: {
-      'application/javascript': ['js', 'mjs']
-    }
-  }
+  base: '/lec3/', // This should match your repository name
 })
